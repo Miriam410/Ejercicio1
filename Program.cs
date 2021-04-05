@@ -10,9 +10,10 @@ namespace Ejercicio1
     { 
         static void Main(string[] args)
         {
+         // 1. Presente el mensaje "Hola mundo" al usuario, espere la presión de una tecla y finalice.
             Console.WriteLine("Hola mundo.");
             Console.WriteLine("Por favor, ingrese una tecla para salir.");
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }
